@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:layout_margin="5dp"
+    android:id="@+id/list_item_ll"
+    android:layout_height="50dp">
+    <ImageView
+        android:src="@drawable/ic_local_dining_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_weight="0.1"
+        android:layout_margin="5dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/list_item_name_tv"
+        android:layout_width="0dp"
+        android:layout_weight="0.6"
+        android:hint="Restaurant name"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/list_item_rating_tv"
+        android:layout_width="0dp"
+        android:layout_weight="0.2"
+        android:hint="Restaurant name"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:gravity="center_horizontal"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
